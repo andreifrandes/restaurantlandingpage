@@ -1,0 +1,163 @@
+/* First let's add default css styling.. */
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-size: 1.1rem;
+  font-family: 'Cinzel',sans-serif;
+  font-weight: 200;
+  line-height: 1.8rem;
+  /* haha */
+}
+h1,h2,h3{
+  letter-spacing: 3px;
+}
+img{
+  max-width: 100%;
+}
+/* let's start with the nav bar */
+.unstyled-list{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.unstyled-list li{
+  float: right;
+  padding: 1rem .5rem;
+
+  /* that looks decent */
+/* yes */
+}
+.unstyled-list a{
+  text-decoration: none;
+  color: black;
+  padding: .5em .5em;
+}
+.unstyled-list a:hover{
+  background: #ddd;
+}
+/* hmmmmm */
+.unstyled-list{
+  padding: 0 1em;
+  position: fixed;
+  width: 100%;
+  background: #fff;
+  z-index: 2;
+}
+.unstyled-list #logo{
+  float: left;
+}
+/* I want the nav bar to only show when I'm on a bigger screen */
+@media (max-width:600px){
+  .hide-me{
+    display: none;
+  }
+}
+/* is all good so far */
+
+
+
+
+/* Let's add the background image to our header
+I'm not sure how the person who made the initial template did it so mine might look slightly different */
+/* I think he just added the picture as an image to html
+instead of setting it as a background image ,so I'll try to do the same and see how it goes! */
+/* that's what that lazy ass did I knew it!  */
+
+
+/* styling the header */
+.header-img{
+  min-height: 250px;
+  /* min-width: 300px; */
+/* not gonna lie
+i don't know how to fix that.. */
+/* no clue */
+}
+.header-text{
+  bottom: 0;
+  left: 2rem;
+  position: absolute;
+  color: rgba(0,0,0,.5);
+/*  hmmmmm */
+  /* it could have been worse */
+}
+.header-bg{
+  position: relative;
+  height: auto;
+  width: auto;
+}
+/* oh */
+.container{
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+
+
+/* for the sake of me improving my ABILITY of using the grid ,I will use it now ,although I'm not good with it! */
+
+
+
+/* looks like I don't need to create just yet as I'm buildig this landing page mobile first! */
+
+
+/* styling the hero section */
+.hero-img{
+  display: none;
+}
+.hero{
+  margin: 6rem 0;
+}
+.hero-title,.hero-subtitle{
+  text-align: center;
+  letter-spacing: 3px;
+  font-weight: 600;
+}
+.hero-title{
+  font-size: 2.2rem;
+  font-weight: 400;
+  /* to be honest I'm confused with how font weight works */
+}
+/* sorry I had to answer my girlriend */
+.hero-text{
+  font-family: 'Assistant', sans-serif;
+  font-weight: 400;
+}
+.hero-text-grey{
+color:rgba(0, 0, 0, 0.54);
+}
+hr{
+  /* i'm not sure how to do that */
+  color:  rgba(242, 242, 242,.9);
+}
+/* i'm not good with colours either */
+
+
+
+/* styling the munu section */
+.menu{
+  margin: 7rem 0;
+}
+.menu-title{
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 1.7em;
+}
+.menu-subtitle{
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 4px;
+}
+.menu-text{
+  font-size: 1rem;
+  font-family: 'Assistant', sans-serif ;
+  font-weight: 400;
+  color: grey;
+}
+.menu-img{
+  opacity: .7;
+  border-radius: px;
+}
