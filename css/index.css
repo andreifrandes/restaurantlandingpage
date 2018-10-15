@@ -46,9 +46,9 @@ img{
   background: #fff;
   z-index: 2;
 }
-.unstyled-list #logo{
+/* .unstyled-list #logo{
   float: left;
-}
+} */
 /* I want the nav bar to only show when I'm on a bigger screen */
 @media (max-width:600px){
   .hide-me{
@@ -159,5 +159,5 @@ hr{
 }
 .menu-img{
   opacity: .7;
-  border-radius: px;
+  border-radius: 3px;
 }
